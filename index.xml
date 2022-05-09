@@ -1,36 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tek Blog</title>
+    <title>Greg&#39;s Blog</title>
     <link>http://example.org/</link>
-    <description>Recent content on Tek Blog</description>
+    <description>Recent content on Greg&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2020 14:46:57 +0200</lastBuildDate>
-    
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 May 2022 00:49:51 +0200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Second Post</title>
-      <link>http://example.org/posts/second-post/</link>
-      <pubDate>Tue, 12 May 2020 14:46:57 +0200</pubDate>
+      <title>Third Post</title>
+      <link>http://example.org/posts/third-post/</link>
+      <pubDate>Tue, 10 May 2022 00:49:51 +0200</pubDate>
       
-      <guid>http://example.org/posts/second-post/</guid>
+      <guid>http://example.org/posts/third-post/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>http://example.org/posts/first-post/</link>
-      <pubDate>Tue, 12 May 2020 14:44:27 +0200</pubDate>
-      
-      <guid>http://example.org/posts/first-post/</guid>
-      <description>Premier post Premier post sur le site hugo. Test
-Test
-test test test test
-public class Main { public static void main() { } } OK OK OK TEST a
-NOIMG</description>
     </item>
     
   </channel>
