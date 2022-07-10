@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Greg&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 May 2022 00:49:51 +0200</lastBuildDate><atom:link href="https://win32.gg/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://win32.gg/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Third Post</title>
-      <link>https://win32.gg/posts/third-post/</link>
-      <pubDate>Tue, 10 May 2022 00:49:51 +0200</pubDate>
+      <title>Openvpn Manager</title>
+      <link>https://win32.gg/posts/openvpn-manager/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://win32.gg/posts/third-post/</guid>
-      <description></description>
+      <guid>https://win32.gg/posts/openvpn-manager/</guid>
+      <description>What to do OpenVPN is an open-source VPN software commonly used in universities, workplaces or even homelabs. I always liked using it and it actually taught me a lot regarding certificates (it used to be shipped with easy-rsa), networking, routing etc&amp;hellip; At the time I started to need to use it at scale for my lab I couldn&amp;rsquo;t find any tool with a web interface. I seems everybody just loved to make their own script to add new users and well&amp;hellip; so did I.</description>
     </item>
     
   </channel>
