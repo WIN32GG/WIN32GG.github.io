@@ -165,7 +165,7 @@ exten =&gt; 2,1,Dial(PJSIP/phony)
 exten =&gt; 3,1,Dial(PJSIP/phone3)
 </code></pre><p>The <code>include =&gt; toTheTrunk</code> is used to include the extension we just made. And we can now make calls to the outside world. But, we still need to receive calls from the trunk.</p>
 <h2 id="inbound-calls">Inbound Calls</h2>
-<p>The inbound calls part is pretty simple, we can use the <code>from-external</code> config element in the extensions:</p>
+<p>The inbound calls part is pretty simple, we can use the <code>from-external</code> config element (we defined when creating our trunk) in the extensions:</p>
 <pre tabindex="0"><code>[from-external]
 exten =&gt; s,1,Dial(PJSIP/phone1)
 exten =&gt; s,2,Dial(PJSIP/phone2)
