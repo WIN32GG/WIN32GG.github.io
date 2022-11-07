@@ -155,7 +155,7 @@ exten =&gt; _06XXXXXXXX,1,Dial(PJSIP/${EXTEN}@mytrunk)
 exten =&gt; _0XXXXXXXXX,1,Dial(PJSIP/${EXTEN}@mytrunk)
 exten =&gt; _+!,1,Dial(PJSIP/${EXTEN}@mytrunk
 </code></pre><p>A number starting with an underscore means we use pattern matching, here the first two line are redundant but they mean to match all phone numbers with 10 digits starting in 06 and number with 10 digits starting with 0. Which is the standard over here.
-The last line matches the international format as we start with a <code>+</code> and <code>+!</code> means 1 or more digits.
+The last line matches the international format as we start with a <code>+</code> and <code>!</code> means 1 or more digits.
 <code>PJSIP/${EXTEN}@mytrunk</code> means to dial the extension number we entered and to it via <code>mytrunk</code> which is the trunk we defined before.</p>
 <p>We now just need to modify the previous configuration so that office phones can use the <code>toTheTrunk</code> extensions:</p>
 <pre tabindex="0"><code>[office-phones]
