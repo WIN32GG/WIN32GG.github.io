@@ -63,7 +63,7 @@
     <h1 id="sip-and-voip">SIP and VoIP</h1>
 <p>Voice over IP is a standard for for communication over IP. It is used in a lot of application, especially in communication and aims at replacing RTC, traditional telephone lines. SIP is the protocol implementing a VoIP standard compatible with telephones, SIP client software and compatible phones.
 Asterisk is a software with a lot of capabilities, phone-book, voice mail and SIP server.</p>
-<h2 id="prerequisite">Prerequisite</h2>
+<h2 id="prerequisites">Prerequisites</h2>
 <p>VoIP implies an already working IP stack with a backbone IP network, DHCP if you want to and to open ports on the Asterisk host. The required port is 5060 on UDP for SIP but other ports are used for other services. You can use the net-tools netstat to see the ports in use with <code>netstat -tunlp | grep asterisk</code></p>
 <h2 id="asterisk-vocabulary--principle">Asterisk vocabulary &amp; principle</h2>
 <p>A lot of diagrams exist about Asterisk and while they are very complete, I find they often lack in clarity. Below is a lot of useful terms to get started with Asterisk for SIP phone call only.
@@ -78,7 +78,8 @@ protocol=udp    ;udp,tcp,tls,ws,wss,flow
 bind=0.0.0.0
 </code></pre><h2 id="endpoints">Endpoints</h2>
 <p>Endpoints are the phones that can be connected to this Asterisk server. You have to configure a couple of objects for each one, here is an example for a SIP phone:</p>
-<pre tabindex="0"><code class="language-[phony]" data-lang="[phony]">type=endpoint
+<pre tabindex="0"><code>[phony]
+type=endpoint
 transport=transport-udp
 context=office-phones
 disallow=all
