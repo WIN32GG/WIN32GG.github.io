@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>telecom on Greg&#39;s Blog</title>
+    <link>https://win32.gg/tags/telecom/</link>
+    <description>Recent content in telecom on Greg&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://win32.gg/tags/telecom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asterisk quick startup</title>
+      <link>https://win32.gg/posts/asterisk/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://win32.gg/posts/asterisk/</guid>
+      <description>SIP and VoIP Voice over IP is a standard for for communication over IP. It is used in a lot of application, especially in communication and aims at replacing RTC, traditional telephone lines. SIP is the protocol implementing a VoIP standard compatible with telephones, SIP client software and compatible phones. Asterisk is a software with a lot of capabilities, phone-book, voice mail and SIP server.
+Prerequisites VoIP implies an already working IP stack with a backbone IP network, DHCP if you want to and to open ports on the Asterisk host.</description>
+    </item>
+    
+  </channel>
+</rss>
