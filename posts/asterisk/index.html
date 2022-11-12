@@ -103,7 +103,7 @@ match=192.166.0.0/24
 </code></pre><p>This configuration defines the <code>phony</code> objects of different types: <strong>endpoint</strong> is the main objects and ties the different ones together. <strong>auth</strong> is the authentication method. I used a static one but an interesting future work would be to connect to a LDAP. <strong>AOR</strong> is an <em>&ldquo;Address of Record&rdquo;</em> and provides Asterisk with information about the endpoint connection. And <strong>identify</strong> is necessary to authorize the endpoint to connect from the IP range.</p>
 <h2 id="extensions">Extensions</h2>
 <p>So far, endpoints can connect by providing the SIP server IP, a username and password. But they don&rsquo;t have a <strong>phone number</strong> yet. Asterisk calls these phone numbers <strong>extensions</strong> and they are defined in <code>/etc/asterisk/extensions.conf</code></p>
-<p>This is where the <code>context</code> par of the previous configuration (context=office-phones) is important.
+<p>This is where the <code>context</code> part of the previous configuration (context=office-phones) is important.
 This is an example of configuration for internal communications:</p>
 <pre tabindex="0"><code>[office-phones]
 exten =&gt; 1001,1,Dial(PJSIP/phone1)
